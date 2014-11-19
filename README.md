@@ -1,4 +1,4 @@
-GAP-CLoSR-Tools-GUI-source
+GAP-CLoSR-Tools-source
 ==========================
 
 This repository contains the source code for the GUI VB script and the Python tools script for running the ArcGIS python library. 

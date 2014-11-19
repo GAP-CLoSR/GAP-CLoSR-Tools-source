@@ -5,4 +5,8 @@ This repository contains the source code for the GUI VB script and the Python to
 
 Final compiled versions for distribution can be found in www.github.com/GAP-CLoSR/GAP-CLoSR-Tools-Executables-and-Python-scripts.
 
+Edits to source code need to be updated in this repository.
+
+Final stable tested versions can be added to www.github.com/GAP-CLoSR/GAP-CLoSR-Tools-Executables-and-Python-scripts.
+
 Please let the admin know if you are keen to participate in this open source Creative Commons licensed project.

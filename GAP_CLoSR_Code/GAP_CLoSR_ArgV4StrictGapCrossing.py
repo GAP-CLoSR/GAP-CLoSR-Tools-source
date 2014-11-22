@@ -36,7 +36,7 @@ OutputRasters\tmp_output - Empty directory for temporary files
 # Dr Alex Lechner (alexmarklechner@yahoo.com.au) as a part of the 
 # Australian Government's National Environmental Research Program 
 # (NERP) Landscapes and Policy hub. This script was adapted for use with 
-# GAP_CLoSR_Tools.exe. This script and GAP_CLoSR_GUI.exe are licensed 
+# GAP_CLoSR_GUI.exe. This script and GAP_CLoSR_GUI.exe are licensed 
 # under the Creative Commons AttributionNonCommercial-ShareAlike 3.0
 # Australia (CC BY-NC-SA 3.0 AU) license. To view a copy of this licence, 
 # visit https://creativecommons.org/licenses/by-nc-sa/3.0/au/.
@@ -196,14 +196,12 @@ def main():
 
     input_folder_dir = RootDir +"/"    
     output_folder = output_folderP + "/"
-    tmp_output_folder = RootDir + "/tmp_output/"
-    #create the temp folder if it does not exist
-    try: 
-        if not os.path.isdir(tmp_output_folder):
-            os.mkdir(tmp_output_folder)
-    except:
-        print "Could not create temp folder."
-        
+    tmp_output_folder = output_folder + "/tmp_output/"
+
+    #Check if temp directory exists - if not make it
+    if not os.path.exists(tmp_output_folder):
+        os.makedirs(tmp_output_folder)
+
     """Ensure rasters are multiples of the aggregation_width_factor """
     aggregation_width_factor = new_pixel_size/original_pixel_size
     print "The aggregation_width_factor =" , aggregation_width_factor 

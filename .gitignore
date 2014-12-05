@@ -1,0 +1,10 @@
+[Bb]in/ 
+[Oo]bj/ 
+!/lib 
+*.user 
+*.suo 
+*.sln.cache 
+*.xap 
+*.vspcc 
+*.vscc  
+*.vssscc

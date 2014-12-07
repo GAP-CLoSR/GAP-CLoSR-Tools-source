@@ -1,0 +1,88 @@
+<Project>
+  <name>Graphab_outputs</name>
+  <codes>
+    <int>0</int>
+    <int>1</int>
+  </codes>
+  <patchCode>1</patchCode>
+  <noData>255.0</noData>
+  <con8>false</con8>
+  <minArea>100000.0</minArea>
+  <simplify>false</simplify>
+  <capacityParams>
+    <calcArea>true</calcArea>
+    <maxCost>0.0</maxCost>
+    <weightCost>false</weightCost>
+  </capacityParams>
+  <resolution>25.0</resolution>
+  <grid2space>
+    <m00>25.0</m00>
+    <m01>0.0</m01>
+    <m02>346885.49688720703</m02>
+    <m10>0.0</m10>
+    <m11>-25.0</m11>
+    <m12>6383014.426879883</m12>
+  </grid2space>
+  <space2grid>
+    <m00>0.04</m00>
+    <m01>0.0</m01>
+    <m02>-13875.419875488282</m02>
+    <m10>0.0</m10>
+    <m11>-0.04</m11>
+    <m12>255320.57707519532</m12>
+  </space2grid>
+  <costLinks>
+    <entry>
+      <string>Linkset1100</string>
+      <Linkset>
+        <name>Linkset1100</name>
+        <type>1</type>
+        <type__dist>3</type__dist>
+        <type__length>1</type__length>
+        <realPaths>true</realPaths>
+        <removeCrossPatch>false</removeCrossPatch>
+        <distMax>1100.0</distMax>
+        <extCostFile>D:\TestData\Outputs_forGraphab\luse_5fm.tif</extCostFile>
+      </Linkset>
+    </entry>
+  </costLinks>
+  <exoDatas/>
+  <graphs>
+    <entry>
+      <string>Graph1100</string>
+      <Graph>
+        <name>Graph1100</name>
+        <cost reference="../../../../costLinks/entry/Linkset"/>
+        <type>2</type>
+        <threshold>1100.0</threshold>
+        <intraPatchDist>false</intraPatchDist>
+        <saved>true</saved>
+      </Graph>
+    </entry>
+  </graphs>
+  <zone class="java.awt.geom.Rectangle2D$Double">
+    <x>346910.49688720703</x>
+    <y>6375189.426879883</y>
+    <width>11150.0</width>
+    <height>7800.0</height>
+  </zone>
+  <wktCRS>PROJCS[&quot;unnamed&quot;, &#xd;
+  GEOGCS[&quot;GCS Name = GCS_GDA_1994|Ellipsoid = GRS_1980|Primem = Greenwich|&quot;, &#xd;
+    DATUM[&quot;Geocentric Datum of Australia 1994&quot;, &#xd;
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], &#xd;
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], &#xd;
+      AUTHORITY[&quot;EPSG&quot;,&quot;6283&quot;]], &#xd;
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+    UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+    AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+    AXIS[&quot;Geodetic latitude&quot;, NORTH]], &#xd;
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], &#xd;
+  PARAMETER[&quot;central_meridian&quot;, 153.0], &#xd;
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], &#xd;
+  PARAMETER[&quot;scale_factor&quot;, 0.9996], &#xd;
+  PARAMETER[&quot;false_easting&quot;, 500000.0], &#xd;
+  PARAMETER[&quot;false_northing&quot;, 10000000.0], &#xd;
+  UNIT[&quot;m&quot;, 1.0], &#xd;
+  AXIS[&quot;Easting&quot;, EAST], &#xd;
+  AXIS[&quot;Northing&quot;, NORTH]]</wktCRS>
+</Project>

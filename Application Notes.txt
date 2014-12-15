@@ -1,0 +1,11 @@
+This application is an implementation of GAP_CLoSR tools and methods developed by Dr Alex Lechner (alexmarklechner@yahoo.com.au) as a part of the Australian Government's National Environmental Research Program (NERP) Landscapes and Policy hub.
+  
+The GAP_CLoSR_Tools.exe GUI was developed by Dr Michael Lacey (Michael.Lacey@utas.edu.au), in association with Alex Lechner and the NERP Landscapes and Policy hub and is licensed under the Creative Commons AttributionNonCommercial-ShareAlike 3.0 Australia (CC BY-NC-SA 3.0 AU) license. To view a copy of this licence, visit https://creativecommons.org/licenses/by-nc-sa/3.0/au/).
+
+Complete files for running GAP_CLoSR_Tools are available from GitHub via 'GAP-CLoSR/GAP-CLoSR-Tools_DOWNLOAD' including Python scripts required for running the tools.
+
+This application runs under .NET Framework version 3.5.
+Documentation to follow soon. 
+
+ML
+December, 2014
